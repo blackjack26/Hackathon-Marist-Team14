@@ -5,11 +5,17 @@
 class ClassTime
 {
 public:
-	ClassTime(Day day, string startTime, string endTime);
+	ClassTime(Day *day, string startTime, string endTime);
+	Day * getDay();
+	Time * getStart();
+	Time * getEnd();
+	bool overlaps(ClassTime * t);
+	Time * duration();
+	string durationStr();
 private:
-	Time start;
-	Time end;
+	Time *start;
+	Time *end;
 	int priority;
-	Day day;
+	Day *day;
 };
 
