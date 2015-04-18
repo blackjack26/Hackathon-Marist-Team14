@@ -17,7 +17,7 @@ private:
 	unordered_map<string, vector<ClassTime>> combos;
 	void createSchedule();
 	void permutation(unordered_map<string, vector<ClassTime>> selectedSec, vector<Course> unusedCourses);
-	bool isAllowed(ClassTime times[]);
+	bool isAllowed(vector<ClassTime> times);
 	bool checkOverlapWithExisting(unordered_map<string, vector<ClassTime>> selectedSec, ClassTime t);
 };
 
