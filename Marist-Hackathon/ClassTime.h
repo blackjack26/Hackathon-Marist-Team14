@@ -7,14 +7,15 @@ public:
 	ClassTime();
 	ClassTime(int day, string startTime, string endTime);
 	int getDay();
-	Time * getStart();
-	Time * getEnd();
-	bool overlaps(ClassTime * t);
-	Time * duration();
+	Time getStart();
+	Time getEnd();
+	bool overlaps(ClassTime t);
+	Time duration();
 	string durationStr();
+	string rangeStr();
 private:
-	Time *start;
-	Time *end;
+	Time start;
+	Time end;
 	int priority;
 	int day;
 };

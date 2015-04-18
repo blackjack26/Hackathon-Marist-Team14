@@ -19,8 +19,9 @@ float Time::getHourTime(){
 }
 
 string Time::toString(){
-	string min = "" + this->minute;
+	string min = "" + to_string(this->minute);
 	if (this->minute == 0)
 		min = "00";
-	return this->hour + ":" + min;
+
+	return to_string(this->hour) + ":" + min;
 }
