@@ -1,6 +1,7 @@
 #include "ScheduleCreator.h"
 #include <iostream>
 #include <sstream>
+#include <fstream>
 #include <algorithm>
 #include <unordered_map>
 
@@ -84,6 +85,12 @@ void ScheduleCreator::createSchedule(){
 			}
 		}
 	}
+
+	cout << "Would you like to save your results (Y/N)? ";
+	string input; getline(cin, input);
+	if (input == "Y" || input == "y"){
+		saveData();
+	}
 }
 
 bool ScheduleCreator::isExtra(unordered_map<string, vector<ClassTime>> currMap, int index){
@@ -115,8 +122,14 @@ void ScheduleCreator::getInput(){
 	cout << "Welcome to the Schedule Creator!" << endl;
 	cout << "What time would you like classes to start (hh:mm)? ";
 	string start; getline(cin, start);
+	while (!verifyInput(start, "time")){
+		getline(cin, start);
+	}
 	cout << "What time would you like classes to end (hh:mm)? ";
 	string end; getline(cin, end);
+	while (!verifyInput(end, "time")){
+		getline(cin, end);
+	}
 	schedule = Schedule(Time(start), Time(end));
 
 	string courseInput = "";
@@ -128,7 +141,9 @@ void ScheduleCreator::getInput(){
 			string courseName; getline(cin, courseName);
 			cout << "  How many credits? ";
 			string numCredits; getline(cin, numCredits); 
-
+			while (!verifyInput(numCredits, "number")){
+				getline(cin, numCredits);
+			}
 			Course c = Course(courseName, stoi(numCredits));
 			string sectionInput;
 			do{
@@ -150,8 +165,14 @@ void ScheduleCreator::getInput(){
 							getline(cin, day);
 							cout << "      What is the start time (hh:mm)? ";
 							string startTime; getline(cin, startTime);
+							while (!verifyInput(startTime, "time")){
+								getline(cin, startTime);
+							}
 							cout << "      What is the end time (hh:mm)? ";
 							string endTime; getline(cin, endTime);
+							while (!verifyInput(endTime, "time")){
+								getline(cin, endTime);
+							}
 							ctimes.push_back(ClassTime(day.at(0), startTime, endTime));
 						}
 						else if (classInput != "N" && classInput != "n"){
@@ -258,4 +279,56 @@ void ScheduleCreator::addCourse(string name){
 
 void ScheduleCreator::addSection(string courseName, string secName, vector<ClassTime> times){
 	schedule.getCourse(courseName)->addSection(secName, times);
+}
+
+void ScheduleCreator::saveData(){
+	ofstream file ("save.txt");
+	if (file.is_open()){
+		int index = -1;
+		for (unordered_map<string, vector<ClassTime>> map : combos){
+			index++;
+			if (isExtra(map, index)){
+				continue;
+			}
+			file << "\n***New Schedule***" << endl;
+			for (auto it : map){
+				file << it.first << endl;
+				for (ClassTime t : it.second){
+					file << t.getDay() << ": " << t.getStart().toString() << " --> " << t.getEnd().toString() << endl;
+				}
+			}
+		}
+		file.close();
+	}else{
+		cout << "Unable to write to file" << endl;
+	}
+}
+
+bool ScheduleCreator::verifyInput(string input, string type){
+	if (type == "number"){
+		try{
+			stoi(input);
+		}
+		catch (exception){
+			cout << "** Invalid Input. Please enter a number. ** -> ";
+			return false;
+		}
+	}
+	else if (type == "time"){
+		if (input.length() > 5 || input.length() < 4){
+			cout << "** Invalid Input. Use (hh:mm) ** -> ";
+			return false;
+		}
+		string str = input.substr(0, input.find_first_of(":"));
+		if (str.length() < 1 || str.length() > 2){
+			cout << "** Invalid Input. Use (hh:mm) ** -> ";
+			return false;
+		}
+		string str2 = input.substr(input.find_first_of(":") + 1);
+		if (str2.length() != 2){
+			cout << "** Invalid Input. Use (hh:mm) ** -> ";
+			return false;
+		}
+	}
+	return true;
 }
