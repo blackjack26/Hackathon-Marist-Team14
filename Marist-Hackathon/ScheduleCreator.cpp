@@ -161,8 +161,10 @@ void ScheduleCreator::getInput(){
 						getline(cin, classInput);
 						if (classInput == "Y" || classInput == "y"){
 							cout << "      What day is the class time (U,M,T,W,R,F,S)? ";
-							string day;
-							getline(cin, day);
+							string day;	getline(cin, day);
+							while (!verifyInput(day, "day")){
+								getline(cin, day);
+							}
 							cout << "      What is the start time (hh:mm)? ";
 							string startTime; getline(cin, startTime);
 							while (!verifyInput(startTime, "time")){
@@ -329,6 +331,15 @@ bool ScheduleCreator::verifyInput(string input, string type){
 			cout << "** Invalid Input. Use (hh:mm) ** -> ";
 			return false;
 		}
+	}
+	else if (type == "day"){
+		for (char c : days){
+			if (input.at(0) == c){
+				return true;
+			}
+		}
+		cout << "** Invalid Input. Specify a day ** -> ";
+		return false;
 	}
 	return true;
 }
