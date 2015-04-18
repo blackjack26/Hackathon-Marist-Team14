@@ -1,24 +1,18 @@
 #include "ClassTime.h"
 #include "Time.h"
 #include <string>
+#include <iostream>
 
 using namespace std;
 
-ClassTime::ClassTime(Day *day, string startTime, string endTime){
+ClassTime::ClassTime(int day, string startTime, string endTime){
 
-	int sH = stoi(startTime.substr(0, startTime.find(":")));
-	int sM = stoi(startTime.substr(startTime.find(":") + 1));
-
-	this->start = new Time(sH + ":" + sM);
-
-	int eH = stoi(endTime.substr(0, endTime.find(":")));
-	int eM = stoi(endTime.substr(endTime.find(":") + 1));
-
-	this->end = new Time(eH + ":" + eM);
+	this->start = new Time(startTime);
+	this->end = new Time(endTime);
 	this->day = day;
 }
 
-Day * ClassTime::getDay(){
+int ClassTime::getDay(){
 	return day;
 }
 
@@ -55,5 +49,14 @@ Time * ClassTime::duration(){
 			hourDiff--;
 			minDiff += 60;
 		}
+		return new Time(hourDiff + ":" + minDiff);
 	}
+	else{
+		cout << "End time is before the Start time. FIX" << endl;
+		return NULL;
+	}
+}
+
+string ClassTime::durationStr(){
+	return duration()->toString();
 }

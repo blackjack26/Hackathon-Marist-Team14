@@ -2,7 +2,7 @@
 #include "Main.h"
 #include "ScheduleCreator.h"
 
-Main::Main()
+int main()
 {
 	ScheduleCreator create;
 	create.startCreator();

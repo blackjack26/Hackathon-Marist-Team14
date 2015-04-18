@@ -1,7 +1,12 @@
 #include "Time.h"
 #include <string>
+#include <iostream>
 
 using namespace std;
+
+Time::Time(){
+
+}
 
 Time::Time(string time)
 {

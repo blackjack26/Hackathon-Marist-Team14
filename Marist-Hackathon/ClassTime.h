@@ -1,12 +1,12 @@
 #pragma once
-#include "Day.h"
 #include "Time.h"
 
 class ClassTime
 {
 public:
-	ClassTime(Day *day, string startTime, string endTime);
-	Day * getDay();
+	ClassTime();
+	ClassTime(int day, string startTime, string endTime);
+	int getDay();
 	Time * getStart();
 	Time * getEnd();
 	bool overlaps(ClassTime * t);
@@ -16,6 +16,6 @@ private:
 	Time *start;
 	Time *end;
 	int priority;
-	Day *day;
+	int day;
 };
 
