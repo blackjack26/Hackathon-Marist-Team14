@@ -6,7 +6,7 @@
 
 using namespace std;
 
-enum days {SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY};
+const char days[] = {'U', 'M', 'T', 'W', 'R', 'F', 'S'};
 
 ScheduleCreator::ScheduleCreator()
 {
@@ -76,11 +76,11 @@ void ScheduleCreator::createSchedule(){
 		if (isExtra(map, index)){
 			continue;
 		}
-		cout << "\nNew Schedule" << endl;
+		cout << "\n***New Schedule***" << endl;
 		for (auto it : map){
 			cout << it.first << endl;
 			for (ClassTime t : it.second){
-				cout << getDayName(t.getDay()) << "- " << t.getStart().toString() << " --> " << t.getEnd().toString() << endl;
+				cout << t.getDay() << ": " << t.getStart().toString() << " --> " << t.getEnd().toString() << endl;
 			}
 		}
 	}
@@ -123,65 +123,53 @@ void ScheduleCreator::getInput(){
 	do{
 		cout << "Would you like to add a course (Y/N)? ";
 		getline(cin, courseInput);
-		if (courseInput == "Y"){
-			cout << "What is the name of the course? ";
+		if (courseInput == "Y" || courseInput == "y"){
+			cout << "  What is the name of the course? ";
 			string courseName; getline(cin, courseName);
-			cout << "How many credits? ";
+			cout << "  How many credits? ";
 			string numCredits; getline(cin, numCredits); 
 
 			Course c = Course(courseName, stoi(numCredits));
 			string sectionInput;
 			do{
-				cout << "Would you like to add a section (Y/N)? ";
+				cout << "  Would you like to add a section to " << courseName << " (Y/N)? ";
 				getline(cin, sectionInput);
-				if (sectionInput == "Y"){
+				if (sectionInput == "Y" || sectionInput == "y"){
 
 					vector<ClassTime> ctimes;
-					cout << "What is the section number? ";
+					cout << "    What is the section number? ";
 					string secNum; getline(cin, secNum);
 
 					string classInput;
 					do{
-						cout << "Would you like to add a class (Y/N)? ";
+						cout << "    Would you like to add a class to section " << secNum << " (Y/N)? ";
 						getline(cin, classInput);
-						if (classInput == "Y"){
-							cout << "What day is the class time (0 - Sunday -> 6 - Saturday)? ";
-							string day; getline(cin, day);
-							cout << "What is the start time (hh:mm)? ";
+						if (classInput == "Y" || classInput == "y"){
+							cout << "      What day is the class time (U,M,T,W,R,F,S)? ";
+							string day;
+							getline(cin, day);
+							cout << "      What is the start time (hh:mm)? ";
 							string startTime; getline(cin, startTime);
-							cout << "What is the end time (hh:mm)? ";
+							cout << "      What is the end time (hh:mm)? ";
 							string endTime; getline(cin, endTime);
-							ctimes.push_back(ClassTime(stoi(day), startTime, endTime));
+							ctimes.push_back(ClassTime(day.at(0), startTime, endTime));
 						}
-						else if (classInput != "N"){
+						else if (classInput != "N" && classInput != "n"){
 							cout << "** Invalid Input **" << endl;
 						}
-					} while (classInput != "N");
+					} while (classInput != "N" && classInput != "n");
 					c.addSection(secNum, ctimes);
 				}
-				else if(sectionInput != "N"){
+				else if (sectionInput != "N" && sectionInput != "n"){
 					cout << "** Invalid input **" << endl;
 				}
-			} while (sectionInput != "N");
+			} while (sectionInput != "N" && sectionInput != "n");
 			schedule.addCourse(c);
 		}
-		else if(courseInput != "N"){
+		else if (courseInput != "N" && courseInput != "n"){
 			cout << "** Invalid input **" << endl;
 		}
-	} while (courseInput != "N");
-}
-
-string ScheduleCreator::getDayName(int day){
-	switch (day){
-	case 0: return "U";
-	case 1: return "M";
-	case 2: return "T";
-	case 3: return "W";
-	case 4: return "R";
-	case 5: return "F";
-	case 6: return "S";
-	default: return "TBD";
-	}
+	} while (courseInput != "N" && courseInput != "n");
 }
 
 void ScheduleCreator::permutation(unordered_map<string, vector<ClassTime>> selectedSec, vector<Course> unusedCourses){

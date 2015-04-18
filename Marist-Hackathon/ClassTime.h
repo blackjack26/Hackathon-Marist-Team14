@@ -5,8 +5,8 @@ class ClassTime
 {
 public:
 	ClassTime();
-	ClassTime(int day, string startTime, string endTime);
-	int getDay();
+	ClassTime(char day, string startTime, string endTime);
+	char getDay();
 	Time getStart();
 	Time getEnd();
 	bool overlaps(ClassTime t);
@@ -17,6 +17,6 @@ private:
 	Time start;
 	Time end;
 	int priority;
-	int day;
+	char day;
 };
 

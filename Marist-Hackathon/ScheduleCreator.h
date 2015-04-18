@@ -21,6 +21,5 @@ private:
 	void permutation(unordered_map<string, vector<ClassTime>> selectedSec, vector<Course> unusedCourses);
 	bool isAllowed(vector<ClassTime> times);
 	bool checkOverlapWithExisting(unordered_map<string, vector<ClassTime>> selectedSec, ClassTime t);
-	string getDayName(int day);
 };
 

@@ -5,14 +5,14 @@
 
 using namespace std;
 
-ClassTime::ClassTime(int day, string startTime, string endTime){
+ClassTime::ClassTime(char day, string startTime, string endTime){
 
 	this->start = Time(startTime);
 	this->end = Time(endTime);
 	this->day = day;
 }
 
-int ClassTime::getDay(){
+char ClassTime::getDay(){
 	return day;
 }
 
