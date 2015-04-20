@@ -14,9 +14,9 @@ public:
 	vector<ClassTime> getSection(string name);
 	unordered_map<string, vector<ClassTime>> getSections();
 	string toString();
+	int credits;
 private:
 	string courseName;
-	int credits;
 	unordered_map<string, vector<ClassTime>> sections;
 };
 

@@ -11,54 +11,53 @@ const char days[] = {'U', 'M', 'T', 'W', 'R', 'F', 'S'};
 
 ScheduleCreator::ScheduleCreator()
 {
-
-	/*Course sd2 = Course("Software Development II", 4);
+	/*schedule = Schedule(Time("8:00"), Time("24:00"));
+	Course sd2 = Course("Software Development II", 4);
 	vector<ClassTime> times;
-	times.push_back(ClassTime(TUESDAY, "8:00", "10:45"));
-	times.push_back(ClassTime(FRIDAY, "8:00", "9:15"));
+	times.push_back(ClassTime(days[2], "8:00", "10:45"));
+	times.push_back(ClassTime(days[5], "8:00", "9:15"));
 	sd2.addSection("111", times);
 
 	vector<ClassTime> times2;
-	times2.push_back(ClassTime(MONDAY, "14:00", "15:15"));
-	times2.push_back(ClassTime(THURSDAY, "12:30", "13:45"));
+	times2.push_back(ClassTime(days[1], "14:00", "15:15"));
+	times2.push_back(ClassTime(days[4], "12:30", "13:45"));
 	sd2.addSection("113", times2);
 
 	vector<ClassTime> times3;
-	times3.push_back(ClassTime(MONDAY, "12:30", "13:45"));
-	times3.push_back(ClassTime(THURSDAY, "12:30", "13:45"));
+	times3.push_back(ClassTime(days[1], "12:30", "13:45"));
+	times3.push_back(ClassTime(days[4], "12:30", "13:45"));
 	sd2.addSection("115", times3);
 
 
 	Course comm = Course("Data Communications", 4);
 	vector<ClassTime> ctimes;
-	ctimes.push_back(ClassTime(MONDAY, "14:00", "15:15"));
-	ctimes.push_back(ClassTime(THURSDAY, "12:30", "15:15"));
-	ctimes.push_back(ClassTime(FRIDAY, "11:00", "12:15"));
+	ctimes.push_back(ClassTime(days[1], "14:00", "15:15"));
+	ctimes.push_back(ClassTime(days[4], "12:30", "15:15"));
+	ctimes.push_back(ClassTime(days[5], "11:00", "12:15"));
 	comm.addSection("111", ctimes);
 
 	vector<ClassTime> ctimes2;
-	ctimes2.push_back(ClassTime(MONDAY, "17:45", "21:00"));
+	ctimes2.push_back(ClassTime(days[1], "17:45", "21:00"));
 	comm.addSection("113", ctimes2);
 
 
 	Course data = Course("Database Management", 4);
 	vector<ClassTime> dtimes;
-	dtimes.push_back(ClassTime(MONDAY, "14:00", "15:15"));
-	dtimes.push_back(ClassTime(WEDNESDAY, "14:00", "15:15"));
-	dtimes.push_back(ClassTime(THURSDAY, "14:00", "15:15"));
+	dtimes.push_back(ClassTime(days[1], "14:00", "15:15"));
+	dtimes.push_back(ClassTime(days[3], "14:00", "15:15"));
+	dtimes.push_back(ClassTime(days[4], "14:00", "15:15"));
 	data.addSection("114", dtimes);
 
-
-	Course cyber = Course("Intro to Cybersecurity", 4);
-	vector<ClassTime> cyTimes;
-	cyTimes.push_back(ClassTime(TUESDAY, "12:30", "13:45"));
-	cyTimes.push_back(ClassTime(FRIDAY, "12:30", "13:45"));
-	cyber.addSection("111", cyTimes);
+	Course hist = Course("Why Nations Fail", 3);
+	vector<ClassTime> htimes;
+	htimes.push_back(ClassTime(days[2], "3:30", "4:45"));
+	htimes.push_back(ClassTime(days[4], "3:30", "4:45"));
+	hist.addSection("341", htimes);
 
 	schedule.addCourse(sd2);
 	schedule.addCourse(comm);
 	schedule.addCourse(data);
-	schedule.addCourse(cyber);*/
+	schedule.addCourse(hist);*/
 }
 
 void ScheduleCreator::startCreator(){
@@ -93,6 +92,7 @@ void ScheduleCreator::createSchedule(){
 	}
 }
 
+
 bool ScheduleCreator::isExtra(unordered_map<string, vector<ClassTime>> currMap, int index){
 	index--;
 	for (int i = index; i >= 0; i--){
@@ -119,7 +119,7 @@ bool ScheduleCreator::isExtra(unordered_map<string, vector<ClassTime>> currMap, 
 }
 
 void ScheduleCreator::getInput(){
-	cout << "Welcome to the Schedule Creator!" << endl;
+	cout << "**** Welcome to the Schedule Creator! ****" << endl;
 	cout << "What time would you like classes to start (hh:mm)? ";
 	string start; getline(cin, start);
 	while (!verifyInput(start, "time")){
@@ -130,7 +130,12 @@ void ScheduleCreator::getInput(){
 	while (!verifyInput(end, "time")){
 		getline(cin, end);
 	}
-	schedule = Schedule(Time(start), Time(end));
+	cout << "How many total credits in your schedule? ";
+	string credits; getline(cin, credits);
+	while (!verifyInput(credits, "number")){
+		getline(cin, credits);
+	}
+	schedule = Schedule(Time(start), Time(end), stoi(credits));
 
 	string courseInput = "";
 	do{
@@ -195,10 +200,27 @@ void ScheduleCreator::getInput(){
 	} while (courseInput != "N" && courseInput != "n");
 }
 
+int ScheduleCreator::getCreditsOfUsedCourses(vector<Course> unusedCourses){
+	int creditCount = 0;
+	for (Course c : schedule.getCourses()){
+		bool isUsed = true;
+		for (Course u : unusedCourses){
+			if (c.toString() == u.toString()){
+				isUsed = false;
+				break;
+			}
+		}
+		if (isUsed){
+			creditCount += c.credits;
+		}
+	}
+	return creditCount;
+}
+
 void ScheduleCreator::permutation(unordered_map<string, vector<ClassTime>> selectedSec, vector<Course> unusedCourses){
 	
 	int n = unusedCourses.size();
-	if (n == 0)
+	if (n == 0 || getCreditsOfUsedCourses(unusedCourses) >= schedule.totalCredits)
 		combos.push_back(selectedSec);
 	else{
 		int c = 0;

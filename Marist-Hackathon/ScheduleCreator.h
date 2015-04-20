@@ -23,5 +23,6 @@ private:
 	bool checkOverlapWithExisting(unordered_map<string, vector<ClassTime>> selectedSec, ClassTime t);
 	void saveData();
 	bool verifyInput(string input, string type);
+	int getCreditsOfUsedCourses(vector<Course> unusedCourses);
 };
 

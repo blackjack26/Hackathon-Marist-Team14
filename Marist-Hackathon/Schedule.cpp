@@ -5,7 +5,8 @@ Schedule::Schedule(){
 
 }
 
-Schedule::Schedule(Time earlyTime, Time lateTime){
+Schedule::Schedule(Time earlyTime, Time lateTime, int totalCredits){
+	this->totalCredits = totalCredits;
 	this->earlyTime = earlyTime;
 	this->lateTime = lateTime;
 }

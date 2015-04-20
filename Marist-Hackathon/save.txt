@@ -1,8 +1,28 @@
 
 ***New Schedule***
-SD2, 111
-M: 8:00 --> 10:45
-T: 8:00 --> 9:15
-System Analysis, 111
-T: 15:30 --> 18:15
-R: 11:00 --> 12:15
+Software Development II, 111
+T: 8:00 --> 10:45
+F: 8:00 --> 9:15
+Data Communication, 113
+M: 17:45 --> 21:00
+Database Management, 114
+M: 14:00 --> 15:15
+W: 14:00 --> 15:15
+R: 14:00 --> 15:15
+Why Nations Fail, 341*
+T: 15:30 --> 16:45
+R: 15:30 --> 16:45
+
+***New Schedule***
+Software Development II, 115
+M: 12:30 --> 13:45
+R: 12:30 --> 13:45
+Data Communication, 113
+M: 17:45 --> 21:00
+Database Management, 114
+M: 14:00 --> 15:15
+W: 14:00 --> 15:15
+R: 14:00 --> 15:15
+Why Nations Fail, 341*
+T: 15:30 --> 16:45
+R: 15:30 --> 16:45
