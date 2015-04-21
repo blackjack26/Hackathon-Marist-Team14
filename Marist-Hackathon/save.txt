@@ -1,28 +1,876 @@
 
 ***New Schedule***
-Software Development II, 111
-T: 8:00 --> 10:45
-F: 8:00 --> 9:15
-Data Communication, 113
-M: 17:45 --> 21:00
-Database Management, 114
-M: 14:00 --> 15:15
-W: 14:00 --> 15:15
-R: 14:00 --> 15:15
-Why Nations Fail, 341*
-T: 15:30 --> 16:45
-R: 15:30 --> 16:45
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
 
 ***New Schedule***
-Software Development II, 115
-M: 12:30 --> 13:45
-R: 12:30 --> 13:45
-Data Communication, 113
-M: 17:45 --> 21:00
-Database Management, 114
-M: 14:00 --> 15:15
-W: 14:00 --> 15:15
-R: 14:00 --> 15:15
-Why Nations Fail, 341*
-T: 15:30 --> 16:45
-R: 15:30 --> 16:45
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Nursing Process and Skills Lab, 1
+M: 8:00 --> 11:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills Lab, 6
+W: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Nursing Process and Skills Lab, 1
+M: 8:00 --> 11:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Nursing Process and Skills Lab, 6
+W: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 1
+T: 11:00 --> 13:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 2
+T: 14:00 --> 16:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 2
+T: 14:00 --> 16:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 2
+T: 14:00 --> 16:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills Lab, 1
+M: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 2
+T: 14:00 --> 16:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills Lab, 6
+W: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 2
+T: 14:00 --> 16:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 2
+T: 14:00 --> 16:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Nursing Process and Skills Lab, 1
+M: 8:00 --> 11:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills Lab, 6
+W: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Nursing Process and Skills Lab, 1
+M: 8:00 --> 11:50
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Nursing Process and Skills Lab, 6
+W: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 5
+R: 11:00 --> 13:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 6
+R: 14:00 --> 16:50
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 6
+R: 14:00 --> 16:50
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 6
+R: 14:00 --> 16:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Nursing Process and Skills Lab, 1
+M: 8:00 --> 11:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 6
+R: 14:00 --> 16:50
+Nursing Process and Skills Lab, 6
+W: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 6
+R: 14:00 --> 16:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 6
+R: 14:00 --> 16:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Nursing Process and Skills Lab, 1
+M: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Nursing Process and Skills Lab, 6
+W: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Nursing Process and Skills Lab, 1
+M: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Nursing Process and Skills Lab, 6
+W: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 2
+M: 9:00 --> 10:20
+W: 9:00 --> 9:50
+F: 9:00 --> 9:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Nursing Process and Skills Lab, 1
+M: 8:00 --> 11:50
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Nursing Process and Skills Lab, 1
+M: 8:00 --> 11:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Nursing Process and Skills Lab, 6
+W: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Nursing Process and Skills Lab, 6
+W: 8:00 --> 11:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Spanish II, 2
+M: 11:00 --> 12:20
+W: 11:00 --> 12:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 2
+T: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50
+Nursing Process and Skills Lab, 3
+M: 12:30 --> 16:20
+
+***New Schedule***
+Anatomy & Physiology II Lab, 7
+F: 11:00 --> 13:50
+Nursing Process and Skills Lab, 7
+W: 12:30 --> 16:20
+Intro to Psychology, 1
+T: 14:00 --> 15:20
+R: 14:00 --> 15:20
+Nursing Process and Skills, 3
+R: 13:00 --> 15:50
+Spanish II, 3
+M: 13:30 --> 15:50
+W: 13:30 --> 15:50

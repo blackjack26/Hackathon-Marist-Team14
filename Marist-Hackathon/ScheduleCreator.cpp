@@ -88,7 +88,10 @@ void ScheduleCreator::createSchedule(){
 	cout << "Would you like to save your results (Y/N)? ";
 	string input; getline(cin, input);
 	if (input == "Y" || input == "y"){
-		saveData();
+		cout << "What file would you like the save to? ";
+		string file;
+		getline(cin, file);
+		saveData(file);
 	}
 }
 
@@ -120,6 +123,16 @@ bool ScheduleCreator::isExtra(unordered_map<string, vector<ClassTime>> currMap, 
 
 void ScheduleCreator::getInput(){
 	cout << "**** Welcome to the Schedule Creator! ****" << endl;
+
+	cout << "Would you like to load a previously generate schedule file (Y/N)? ";
+	string load; getline(cin, load);
+	if (load == "Y" || load == "y"){
+		cout << "What is the filename? ";
+		string filename; getline(cin, filename);
+		loadData(filename);
+		return;
+	}
+
 	cout << "What time would you like classes to start (hh:mm)? ";
 	string start; getline(cin, start);
 	while (!verifyInput(start, "time")){
@@ -305,8 +318,8 @@ void ScheduleCreator::addSection(string courseName, string secName, vector<Class
 	schedule.getCourse(courseName)->addSection(secName, times);
 }
 
-void ScheduleCreator::saveData(){
-	ofstream file ("save.txt");
+void ScheduleCreator::saveData(string fileName){
+	ofstream file (fileName);
 	if (file.is_open()){
 		int index = -1;
 		for (unordered_map<string, vector<ClassTime>> map : combos){
@@ -364,4 +377,18 @@ bool ScheduleCreator::verifyInput(string input, string type){
 		return false;
 	}
 	return true;
+}
+
+void ScheduleCreator::loadData(string fileName){
+	ifstream file(fileName);
+	string line;
+	if (file.is_open()){
+		while (getline(file, line)){
+			cout << line << endl;
+		}
+		file.close();
+	}
+	else{
+		cout << "Unable to read file" << endl;
+	}
 }
